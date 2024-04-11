@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila em Web Mobile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fila em Web Mobile</h1>
+        <div class="queue-container" id="queueContainer">
+            <!-- Queue items will be dynamically added here -->
+        </div>
+        <div class="input-container">
+            <label for="queueInput">Colocar seu nome na fila:</label>
+            <input type="text" id="queueInput" placeholder="Digite seu nome">
+            <label for="colorPicker">Escolher sua cor:</label>
+            <input type="color" id="colorPicker" value="#ff0000">
+            <button onclick="enqueue()">Add to Queue</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
